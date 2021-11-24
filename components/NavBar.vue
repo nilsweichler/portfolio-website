@@ -1,0 +1,54 @@
+<template>
+  <div class='navbar'>
+    <div class='navbar-wrapper'>
+      <div class='logo'><a href='#'><img src='portfolio-logo.svg' alt='Portfolio Website Logo'></a></div>
+      <div class='menu'>
+        <a href='#'>About Me</a>
+        <a href='#'>Projects</a>
+        <a href='#'>Services</a>
+        <a href='#'>Skills</a>
+        <div class='dark-light-switch'></div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'NavBar'
+}
+</script>
+
+<style>
+  .logo {
+    max-width: 146px;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .navbar-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    clear: both;
+    margin: 0 auto;
+    max-width: 1240px;
+  }
+
+  .menu a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 20px 40px;
+  }
+</style>

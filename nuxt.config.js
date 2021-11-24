@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'portfolio-website',
+    title: 'Portfolio - Nils Weichler',
     htmlAttrs: {
       lang: 'en'
     },
@@ -32,6 +32,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/fontawesome',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -42,6 +43,19 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
+
+  fontawesome: {
+    icons: {
+      brands: [
+        "faHtml5",
+        "faCss3",
+        "faJsSquare",
+        "faVuejs",
+        "faJava",
+        "faSearchengin"
+      ]
+    }
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
