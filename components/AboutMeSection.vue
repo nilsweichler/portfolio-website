@@ -1,5 +1,5 @@
 <template>
-  <div class='section'>
+  <div id='about' class='section'>
     <div class='about-me'>
       <div class='about-me-img'>
         <img src='about-me-pic.svg' alt='About Me Avatar'>

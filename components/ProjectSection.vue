@@ -1,5 +1,5 @@
 <template>
-  <div class='project-section'>
+  <div id='projects' class='project-section'>
     <h2 class='center-heading blue-gradient'>Projects</h2>
     <div class='projects'>
       <div class='projects-container'>

@@ -3,10 +3,10 @@
     <div class='navbar-wrapper'>
       <div class='logo'><a href='#'><img src='portfolio-logo.svg' alt='Portfolio Website Logo'></a></div>
       <div class='menu'>
-        <a href='#'>About Me</a>
-        <a href='#'>Projects</a>
-        <a href='#'>Services</a>
-        <a href='#'>Skills</a>
+        <a href='#about'>About Me</a>
+        <a href='#projects'>Projects</a>
+        <a href='#services'>Services</a>
+        <a href='#skills'>Skills</a>
         <div class='dark-light-switch'></div>
       </div>
     </div>
@@ -31,6 +31,7 @@ export default {
     margin-right: auto;
     left: 0;
     right: 0;
+    z-index: 99;
   }
 
   .navbar-wrapper {

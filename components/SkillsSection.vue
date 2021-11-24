@@ -1,5 +1,5 @@
 <template>
-  <div class='section'>
+  <div id='skills' class='section'>
     <div class='skills'>
       <div class='skills-text'>
         <h2><span class='blue-gradient'>Skills</span></h2>
