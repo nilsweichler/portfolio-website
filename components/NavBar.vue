@@ -29,6 +29,7 @@ export default {
     top: 0;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
     left: 0;
     right: 0;
     z-index: 99;
