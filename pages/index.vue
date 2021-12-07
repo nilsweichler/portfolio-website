@@ -75,6 +75,7 @@ p {
   padding: 10px 50px;
   border-radius: 30px;
   margin-top: 30px;
+  line-height: 60px;
   box-shadow: -4px -4px 9px rgba(129, 102, 242, 0.27), 8px 8px 16px rgba(0, 0, 0, 0.12);
 }
 
@@ -82,6 +83,40 @@ p {
   background: -webkit-linear-gradient(#7658F5, #583EC7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1300px) {
+  .navbar {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .hero-section {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  #skills {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  #about {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  /* Tablet */
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 30px;
+    }
+    h2 {
+      font-size: 25px;
+    }
+    .h3 {
+      font-size: 22px;
+    }
+  }
 }
 
 </style>

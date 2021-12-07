@@ -81,4 +81,14 @@ h4 {
   text-align: center;
 }
 
+@media screen and (max-width: 630px) {
+  .services-container {
+    justify-content: center;
+    text-align: center;
+  }
+  .service-card {
+    flex: 100%;
+  }
+}
+
 </style>

@@ -95,4 +95,14 @@ export default {
 .project-card .small:last-child {
   margin-left: 10px;
 }
+@media screen and (max-width: 630px) {
+  .projects-container {
+    justify-content: center;
+    text-align: center;
+  }
+  .project-card {
+    flex: 100%;
+  }
+}
+
 </style>

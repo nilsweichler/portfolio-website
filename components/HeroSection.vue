@@ -53,6 +53,10 @@ export default {
     max-width: 1240px;
   }
 
+  .hero-image img{
+    width: 100%;
+  }
+
   .hire-me-button {
     background: linear-gradient(#FFB966, #FF961B);
     text-decoration: none;
@@ -64,6 +68,16 @@ export default {
   }
   .hire-me-button:hover {
     background: linear-gradient(rgba(255, 185, 102, 0.77), rgba(255, 150, 27, 0.84));
+  }
+
+  @media screen and (max-width: 630px) {
+    .section-wrapper {
+      flex-direction: column-reverse;
+    }
+  }
+
+  @media screen and (max-width: ) {
+
   }
 
 </style>

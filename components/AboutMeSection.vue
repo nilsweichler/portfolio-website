@@ -37,4 +37,23 @@ export default {
   margin: 0 auto;
   max-width: 1240px;
 }
+
+.about-me-img {
+  margin-right: 20px;
+}
+
+.about-me-img img {
+  width: 100%;
+}
+
+@media screen and (max-width: 630px) {
+  .about-me {
+    flex-direction: column;
+  }
+
+  .about-me-text h2{
+    text-align: center;
+  }
+}
+
 </style>

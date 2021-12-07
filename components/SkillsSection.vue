@@ -57,6 +57,7 @@ export default {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  width: 100%;
   flex: 40%;
 }
 
@@ -192,6 +193,17 @@ export default {
   visibility: visible;
   opacity: 1;
   transition: opacity .15s;
+}
+
+@media screen and (max-width: 1050px) {
+  .skills {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .skill-container {
+    flex: 100%;
+  }
 }
 
 </style>

@@ -53,4 +53,10 @@ export default {
     font-size: 16px;
     padding: 20px 40px;
   }
+
+  @media screen and (max-width: 730px) {
+    .menu {
+      display: none;
+    }
+  }
 </style>
