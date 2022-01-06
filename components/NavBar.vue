@@ -89,6 +89,9 @@ export default {
 
   @media screen and (max-width: 730px) {
     .menu {
+    }
+
+    .menu a {
       display: none;
     }
   }
