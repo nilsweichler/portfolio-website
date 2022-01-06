@@ -66,6 +66,7 @@ p {
   max-width: 600px;
   margin-bottom: 30px;
   color: #747AA0;
+  line-height: 1.5;
 }
 
 .button {

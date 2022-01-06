@@ -73,10 +73,11 @@ export default {
   @media screen and (max-width: 630px) {
     .section-wrapper {
       flex-direction: column-reverse;
+      text-align: center;
     }
-  }
-
-  @media screen and (max-width: ) {
+    .heading-section {
+      margin-top: 20px;
+    }
 
   }
 

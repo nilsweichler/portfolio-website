@@ -2,8 +2,8 @@
   <div class='footer-section'>
     <div class='footer-wrapper'>
       <div class='footer-icons'>
-        <font-awesome-icon class='skill-icon' :icon="['fab', 'github']"/>
-        <font-awesome-icon class='skill-icon' :icon="['fab', 'linkedin']"/>
+        <a target="_blank" href="https://github.com/nilsweichler"><font-awesome-icon class='skill-icon' :icon="['fab', 'github']"/>></a>
+        <a target="_blank" href="https://www.linkedin.com/in/nils-weichler-25427114a/"><font-awesome-icon class='skill-icon' :icon="['fab', 'linkedin']"/></a>
       </div>
       <div class='footer-text'>
         <a href='#'>Imprint</a>

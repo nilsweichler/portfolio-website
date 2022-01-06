@@ -4,14 +4,14 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Portfolio - Nils Weichler',
+    title: 'Portfolio of a Frontend Developer - Nils Weichler',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Hi my name is Nils Weichler, I am a frontend developer from Lübeck, Germany. In this portfolio you can find some of my projects.' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [

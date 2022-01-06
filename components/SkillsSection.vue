@@ -3,8 +3,7 @@
     <div class='skills'>
       <div class='skills-text'>
         <h2><span class='blue-gradient'>Skills</span></h2>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea c</p>
+        <p>Here you can find some of my favorite techniques. My tech stack is formed by these cutting edge technologies.</p>
       </div>
       <div class='skill-container'>
         <div v-tooltip="'HTML5'" class='skill-card'>
@@ -25,11 +24,11 @@
         <div v-tooltip="'SEO'" class='skill-card'>
           <font-awesome-icon class='skill-icon' :icon="['fab', 'searchengin']"/>
         </div>
-        <div class='skill-card'>
-          <font-awesome-icon class='skill-icon' :icon="['fab', 'searchengin']"/>
+        <div v-tooltip="'Flutter'" class='skill-card'>
+          <img src="flutter-icon.svg" alt="flutter icon" class="skill-icon">
         </div>
-        <div class='skill-card'>
-          <font-awesome-icon class='skill-icon' :icon="['fab', 'searchengin']"/>
+        <div v-tooltip="'Dart'" class='skill-card'>
+          <img src="dart-icon.svg" alt="dart icon" class="skill-icon">
         </div>
       </div>
     </div>
@@ -37,6 +36,8 @@
 </template>
 
 <script>
+
+import 'v-tooltip/dist/v-tooltip.css'
 export default {
   name: 'SkillsSection'
 }
@@ -83,119 +84,28 @@ export default {
   flex: 60%;
 }
 
+.skill-card img {
+  width: 32px;
+  height: 48px;
+}
+
 .skill-card svg {
-  width: 48px;
+  width: 32px;
   height: 48px;
  color: #7658F5;
 }
 
-.tooltip {
-  display: block !important;
-  z-index: 10000;
-}
-
-.tooltip .tooltip-inner {
-  background: black;
-  color: white;
-  border-radius: 16px;
-  padding: 5px 10px 4px;
-}
-
-.tooltip .tooltip-arrow {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  position: absolute;
-  margin: 5px;
-  border-color: black;
-  z-index: 1;
-}
-
-.tooltip[x-placement^="top"] {
-  margin-bottom: 5px;
-}
-
-.tooltip[x-placement^="top"] .tooltip-arrow {
-  border-width: 5px 5px 0 5px;
-  border-left-color: transparent !important;
-  border-right-color: transparent !important;
-  border-bottom-color: transparent !important;
-  bottom: -5px;
-  left: calc(50% - 5px);
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.tooltip[x-placement^="bottom"] {
-  margin-top: 5px;
-}
-
-.tooltip[x-placement^="bottom"] .tooltip-arrow {
-  border-width: 0 5px 5px 5px;
-  border-left-color: transparent !important;
-  border-right-color: transparent !important;
-  border-top-color: transparent !important;
-  top: -5px;
-  left: calc(50% - 5px);
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.tooltip[x-placement^="right"] {
-  margin-left: 5px;
-}
-
-.tooltip[x-placement^="right"] .tooltip-arrow {
-  border-width: 5px 5px 5px 0;
-  border-left-color: transparent !important;
-  border-top-color: transparent !important;
-  border-bottom-color: transparent !important;
-  left: -5px;
-  top: calc(50% - 5px);
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.tooltip[x-placement^="left"] {
-  margin-right: 5px;
-}
-
-.tooltip[x-placement^="left"] .tooltip-arrow {
-  border-width: 5px 0 5px 5px;
-  border-top-color: transparent !important;
-  border-right-color: transparent !important;
-  border-bottom-color: transparent !important;
-  right: -5px;
-  top: calc(50% - 5px);
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.tooltip.popover .popover-inner {
-  background: #f9f9f9;
-  color: black;
-  padding: 24px;
-  border-radius: 5px;
-  box-shadow: 0 5px 30px rgba(black, .1);
-}
-
-.tooltip.popover .popover-arrow {
-  border-color: #f9f9f9;
-}
-
-.tooltip[aria-hidden='true'] {
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity .15s, visibility .15s;
-}
-
-.tooltip[aria-hidden='false'] {
-  visibility: visible;
-  opacity: 1;
-  transition: opacity .15s;
+.svg-inline--fa {
+  width: 2em !important;
 }
 
 @media screen and (max-width: 1050px) {
+  .skill-card {
+    margin-right: 5px;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
   .skills {
     justify-content: center;
     text-align: center;

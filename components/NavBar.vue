@@ -7,15 +7,31 @@
         <a href='#projects'>Projects</a>
         <a href='#services'>Services</a>
         <a href='#skills'>Skills</a>
-        <div class='dark-light-switch'></div>
+        <div class='dark-light-switch'><DarkModeSwitch @switched="onSwitched" :initialState="isDarkModeEnabled" /></div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import DarkModeSwitch from 'vue-dark-mode-switch'
+import 'vue-dark-mode-switch/dist/vue-dark-mode-switch.css'
+
 export default {
-  name: 'NavBar'
+  name: 'NavBar',
+  data () {
+    return {
+      isDarkModeEnabled: true
+    }
+  },
+  components: {
+    DarkModeSwitch
+  },
+  methods: {
+    onSwitched: function (isSwitched) {
+      console.log('dark mode is enabled :', isSwitched);
+    }
+  }
 }
 </script>
 
@@ -46,11 +62,20 @@ export default {
     max-width: 1240px;
   }
 
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+
   .menu a {
     color: #FFF;
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
+    padding: 20px 40px;
+  }
+
+  .dark-light-switch {
     padding: 20px 40px;
   }
 

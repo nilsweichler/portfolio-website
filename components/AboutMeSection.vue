@@ -6,10 +6,9 @@
       </div>
       <div class='about-me-text'>
         <h2><span class='blue-gradient'>About</span> Me</h2>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea c</p>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea c</p>
+        <p>Hi my name is Nils Weichler, I am a frontend developer from Lübeck, Germany. I study Information Technology and Design at the
+          <a style="text-decoration: none" target="_blank" href="https://www.th-luebeck.de/">Lübeck University of Applied Sciences</a>. I will graduate with a bachelor's degree at the beginning of 2023.</p>
+        <p>I am constantly striving to know more, which is why I have set as my goal to learn Fullstack Development. In this portfolio you can find some of my projects.</p>
         <a class='linkedin button' href='https://www.linkedin.com/in/nils-weichler-25427114a/' target='_blank'>Linkedin</a>
         <a class='github button' href='https://github.com/nilsweichler/' target='_blank'>GitHub</a>
       </div>
@@ -49,6 +48,7 @@ export default {
 @media screen and (max-width: 630px) {
   .about-me {
     flex-direction: column;
+    text-align: center;
   }
 
   .about-me-text h2{

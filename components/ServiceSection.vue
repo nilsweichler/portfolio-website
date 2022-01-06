@@ -6,17 +6,18 @@
         <div class='service-card'>
           <img class='service-icon' src='website-icon.svg' alt='Website Icon'>
           <h4>Website Creation</h4>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+          <p>If you need a website, in that case I can help you with the design process and the creation/coding of the website.
+            No matter if WordPress or Jamstack with a headless CMS on all areas I feel confident.</p>
         </div>
         <div class='service-card'>
           <img class='service-icon' src='responsive-icon.svg' alt='Responsive Icon'>
           <h4>Responsive Web Apps</h4>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+          <p>Should the site be accessible on all devices? If yes, then I can help you optimize the site for mobile.</p>
         </div>
         <div class='service-card'>
           <img class='service-icon' src='seo-icon.svg' alt='SEO Icon'>
           <h4>Search Engine Optimization</h4>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+          <p>Struggling with organic traffic? I can help you both technically and onpage. Developing a strategy will give you a long-term increase in traffic.</p>
         </div>
       </div>
     </div>

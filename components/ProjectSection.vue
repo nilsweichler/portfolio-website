@@ -95,6 +95,11 @@ export default {
 .project-card .small:last-child {
   margin-left: 10px;
 }
+@media screen and (max-width: 1087px) {
+  .project-card .small:last-child {
+    margin-left: 0;
+  }
+}
 @media screen and (max-width: 630px) {
   .projects-container {
     justify-content: center;
@@ -102,6 +107,9 @@ export default {
   }
   .project-card {
     flex: 100%;
+  }
+  .project-card .small:last-child {
+    margin-left: 0;
   }
 }
 
