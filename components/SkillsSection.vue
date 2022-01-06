@@ -44,6 +44,13 @@ export default {
 </script>
 
 <style lang='scss'>
+#skills {
+  background-image: url(static/hero-fancy.svg);
+  background-position: 0% 300%;
+  background-repeat: no-repeat;
+}
+
+
 .skills {
   display: flex;
   justify-content: space-between;
@@ -113,6 +120,12 @@ export default {
   }
   .skill-container {
     flex: 100%;
+  }
+
+  #skills {
+    background-image: url(static/hero-fancy.svg);
+    background-position: 0% 180%;
+    background-repeat: no-repeat;
   }
 }
 

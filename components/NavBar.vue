@@ -36,6 +36,14 @@ export default {
 </script>
 
 <style>
+  :root {
+
+  }
+
+  :root.dark-theme {
+
+  }
+
   .logo {
     max-width: 146px;
   }
