@@ -25,7 +25,7 @@ html{scroll-behavior:smooth}
 
 body {
   margin: 0;
-  background-color: #1F2340;
+  background-color: var(--main-bg-color);
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -34,7 +34,7 @@ body {
 h1 {
   font-weight: 700;
   font-size: 64px;
-  background: -webkit-linear-gradient(#7658F5, #583EC7);
+  background: var(--font-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;
@@ -43,7 +43,7 @@ h1 {
 h2 {
   font-weight: 600;
   font-size: 36px;
-  color: #FFFFFF;
+  color: var(--font-color);
   margin: 0;
   margin-bottom: 40px;
 }
@@ -51,7 +51,7 @@ h2 {
 .h3 {
   font-size: 36px;
   font-weight: 500;
-  color: #FFFFFF;
+  color: var(--font-color);
   margin: 0;
 }
 
@@ -65,12 +65,12 @@ p {
   font-family: Roboto;
   max-width: 600px;
   margin-bottom: 30px;
-  color: #747AA0;
+  color: var(--p-color);
   line-height: 1.5;
 }
 
 .button {
-  background: linear-gradient(#7658F5, #583EC7);
+  background: var(--font-gradient);
   text-decoration: none;
   color: #FFF;
   padding: 10px 50px;
@@ -81,7 +81,7 @@ p {
 }
 
 .blue-gradient {
-  background: -webkit-linear-gradient(#7658F5, #583EC7);
+  background: var(--font-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

@@ -30,6 +30,34 @@ export default {
   methods: {
     onSwitched: function (isSwitched) {
       console.log('dark mode is enabled :', isSwitched);
+      const root = document.documentElement;
+      if(isSwitched) {
+        root.style.setProperty("--font-color", "#fff");
+        root.style.setProperty("--p-color", "#747AA0");
+        root.style.setProperty("--font-gradient", "-webkit-linear-gradient(#7658F5, #583EC7)");
+        root.style.setProperty("--orange-gradient", "linear-gradient(#FFB966, #FF961B)");
+        root.style.setProperty("--orange-gradient-hover", "linear-gradient(rgba(255, 185, 102, 0.77), rgba(255, 150, 27, 0.84))");
+        root.style.setProperty("--main-color", "#191D38");
+        root.style.setProperty("--main-color2", "#292E51");
+        root.style.setProperty("--main-bg-color", "#1F2340");
+        root.style.setProperty("--light-color", "#7658F5");
+        root.style.setProperty("--footer-color", "#4E2BC7");
+        root.style.setProperty("--footer-font-color", "#fff");
+        root.style.setProperty("--drop-shadow", "20px 20px 40px rgba(0, 0, 0, 0.12)");
+      } else {
+        root.style.setProperty("--font-color", "#292E35");
+        root.style.setProperty("--p-color", "#777777");
+        root.style.setProperty("--font-gradient", "-webkit-linear-gradient(#7658F5, #583EC7)");
+        root.style.setProperty("--orange-gradient", "linear-gradient(#FF8EA1, #FF5170)");
+        root.style.setProperty("--orange-gradient-hover", "linear-gradient(rgba(255, 142, 161, 0.77), rgba(255, 81, 112, 0.84))");
+        root.style.setProperty("--main-color", "#F6FAFF");
+        root.style.setProperty("--main-color2", "#FFFFFF");
+        root.style.setProperty("--main-bg-color", "#FEFEFF");
+        root.style.setProperty("--light-color", "#7658F5");
+        root.style.setProperty("--footer-color", "#F7FAFF");
+        root.style.setProperty("--footer-font-color", "#4E2BC7");
+        root.style.setProperty("--drop-shadow", "20px 20px 40px rgba(0, 0, 0, 0.12)");
+      }
     }
   }
 }
@@ -37,12 +65,34 @@ export default {
 
 <style>
   :root {
-
+    --font-color: #fff;
+    --p-color: #747AA0;
+    --font-gradient: -webkit-linear-gradient(#7658F5, #583EC7);
+    --orange-gradient: linear-gradient(#FFB966, #FF961B);
+    --orange-gradient-hover: linear-gradient(rgba(255, 185, 102, 0.77), rgba(255, 150, 27, 0.84));
+    --main-color: #191D38;
+    --main-color2: #292E51;
+    --main-bg-color: #1F2340;
+    --light-color: #7658F5;
+    --footer-color: #4E2BC7;
+    --footer-font-color: #fff;
+    --drop-shadow: 20px 20px 40px rgba(0, 0, 0, 0.12);
   }
 
-  :root.dark-theme {
-
+  :root.light-theme {
+    --font-color: #292E35;
+    --p-color: #777777;
+    --font-gradient: -webkit-linear-gradient(#7658F5, #583EC7);
+    --orange-gradient: linear-gradient(#FF8EA1, #FF5170);
+    --orange-gradient-hover: linear-gradient(rgba(255, 142, 161, 0.77), rgba(255, 81, 112, 0.84));
+    --main-color: #F6FAFF;
+    --main-color2: #FFFFFF;
+    --main-bg-color: #FEFEFF;
+    --light-color: linear-gradient(#7658F5, #583EC7);
+    --footer-color: #F7FAFF;
+    --footer-font-color: #4E2BC7;
   }
+
 
   .logo {
     max-width: 146px;
@@ -76,7 +126,7 @@ export default {
   }
 
   .menu a {
-    color: #FFF;
+    color: var(--font-color);
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;

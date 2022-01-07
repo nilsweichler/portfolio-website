@@ -32,13 +32,13 @@ export default {
 
 <style scoped>
 h4 {
-  background: -webkit-linear-gradient(#7658F5, #583EC7);
+  background: var(--font-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .service-section {
-  background-color: #191D38;
+  background-color: var(--main-color);
 }
 
 .services {
@@ -62,7 +62,7 @@ h4 {
   width: 100%;
   margin: 20px;
   padding: 30px;
-  background-color: #292E51;
+  background-color: var(--main-color2);
   border-radius: 24px;
   display: flex;
   flex-direction: column;

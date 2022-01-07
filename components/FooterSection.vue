@@ -2,7 +2,7 @@
   <div class='footer-section'>
     <div class='footer-wrapper'>
       <div class='footer-icons'>
-        <a target="_blank" href="https://github.com/nilsweichler"><font-awesome-icon class='skill-icon' :icon="['fab', 'github']"/>></a>
+        <a target="_blank" href="https://github.com/nilsweichler"><font-awesome-icon class='skill-icon' :icon="['fab', 'github']"/></a>
         <a target="_blank" href="https://www.linkedin.com/in/nils-weichler-25427114a/"><font-awesome-icon class='skill-icon' :icon="['fab', 'linkedin']"/></a>
       </div>
       <div class='footer-text'>
@@ -21,7 +21,7 @@ export default {
 
 <style scoped>
   .footer-section {
-    background-color: #4E2BC7;
+    background-color: var(--footer-color);
   }
   .footer-wrapper {
     text-align: center;
@@ -29,8 +29,8 @@ export default {
     padding-bottom: 40px;
   }
   .footer-icons .skill-icon {
-    background-color: white;
-    color: #4E2BC7;
+    background-color: var(--footer-font-color);
+    color: var(--footer-color);
     border-radius: 4px;
     padding: 2px;
     width: 40px;
@@ -44,7 +44,7 @@ export default {
 
   .footer-text a {
     text-decoration: none;
-    color: white;
+    color: var(--font-color);
     font-size: 16px;
   }
 

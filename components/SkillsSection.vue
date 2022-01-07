@@ -70,7 +70,7 @@ export default {
 }
 
 .skill-card {
-  background-color: #292E51;
+  background-color: var(--main-color2);
   border-radius: 20px;
   margin-bottom: 20px;
   flex: 0 1 calc(25%);
@@ -79,12 +79,13 @@ export default {
   padding-bottom: 25px;
   display: flex;
   justify-content: center;
+  box-shadow: var(--drop-shadow);
 }
 
 .skill-card:hover {
-  -webkit-box-shadow:inset 0px 0px 0px 2px #7658F5;
-  -moz-box-shadow:inset 0px 0px 0px 2px #7658F5;
-  box-shadow:inset 0px 0px 0px 2px #7658F5;
+  -webkit-box-shadow:inset 0px 0px 0px 2px var(--light-color);
+  -moz-box-shadow:inset 0px 0px 0px 2px var(--light-color);
+  box-shadow:inset 0px 0px 0px 2px var(--light-color);
 }
 
 .skills-text {
@@ -99,7 +100,7 @@ export default {
 .skill-card svg {
   width: 32px;
   height: 48px;
- color: #7658F5;
+ color: var(--light-color);
 }
 
 .svg-inline--fa {

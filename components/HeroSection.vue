@@ -58,7 +58,7 @@ export default {
   }
 
   .hire-me-button {
-    background: linear-gradient(#FFB966, #FF961B);
+    background: var(--orange-gradient);
     text-decoration: none;
     color: #FFF;
     padding: 10px 50px;
@@ -67,7 +67,7 @@ export default {
     filter: drop-shadow(0px 4px 9px rgba(0, 0, 0, 0.12)) drop-shadow(-8px -8px 16px rgba(255, 183, 98, 0.08));
   }
   .hire-me-button:hover {
-    background: linear-gradient(rgba(255, 185, 102, 0.77), rgba(255, 150, 27, 0.84));
+    background: var(--orange-gradient-hover);
   }
 
   @media screen and (max-width: 630px) {

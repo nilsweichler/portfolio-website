@@ -24,7 +24,7 @@ export default {
 
 <style scoped>
 .section {
-  background-color: #191D38;
+  background-color: var(--main-color);
 }
 .about-me {
   display: flex;
