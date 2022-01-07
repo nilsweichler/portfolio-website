@@ -23,7 +23,7 @@ export default {
 
 <style>
   .hero-section {
-    background-image: url(static/hero-background.svg);
+    background-image: var(--background-image);
     background-position: 0% 0%;
     background-repeat: no-repeat;
     position: relative;
