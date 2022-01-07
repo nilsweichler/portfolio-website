@@ -151,5 +151,9 @@ export default {
     .menu a {
       display: none;
     }
+
+    .dark-light-switch {
+      padding: 0;
+    }
   }
 </style>
