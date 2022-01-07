@@ -1,5 +1,5 @@
 <template>
-  <div class='hero-section'>
+  <div id="hero-section" class='hero-section'>
     <img class='image-second' src='hero-fancy.svg'>
     <div class='section-wrapper'>
       <div class='heading-section'>
@@ -23,7 +23,7 @@ export default {
 
 <style>
   .hero-section {
-    background-image: var(--background-image);
+    background-image: url(static/hero-background.svg);
     background-position: 0% 0%;
     background-repeat: no-repeat;
     position: relative;

@@ -45,6 +45,7 @@ export default {
         root.style.setProperty("--footer-font-color", "#fff");
         root.style.setProperty("--drop-shadow", "20px 20px 40px rgba(0, 0, 0, 0.12)");
         root.style.setProperty("--background-image", "url(static/hero-background.svg)");
+        document.getElementById("hero-section").style.backgroundImage = "url(hero-background.svg)";
         document.getElementById("logo").src = 'portfolio-logo.svg';
       } else {
         root.style.setProperty("--font-color", "#292E35");
@@ -59,7 +60,7 @@ export default {
         root.style.setProperty("--footer-color", "#F7FAFF");
         root.style.setProperty("--footer-font-color", "#4E2BC7");
         root.style.setProperty("--drop-shadow", "20px 20px 40px rgba(0, 0, 0, 0.12)");
-        root.style.setProperty("--background-image", "url(static/hero-background-light.svg)");
+        document.getElementById("hero-section").style.backgroundImage = "url(hero-background-light.svg)";
         document.getElementById("logo").src = 'portfolio-logo-dark.svg';
       }
     }
