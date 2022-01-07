@@ -33,7 +33,7 @@ export default {
     color: var(--footer-color);
     border-radius: 4px;
     padding: 2px;
-    width: 40px;
+    width: 40px !important;
     height: 40px;
   }
   .footer-text {

@@ -40,10 +40,15 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/google-gtag'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
+
+  'google-gtag': {
+    id: 'G-05J5X2VJYQ',
+  },
 
   fontawesome: {
     icons: {

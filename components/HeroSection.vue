@@ -1,6 +1,6 @@
 <template>
   <div id="hero-section" class='hero-section'>
-    <img class='image-second' src='hero-fancy.svg'>
+    <img class='image-second' src='hero-fancy.svg' alt="Hero Background Image">
     <div class='section-wrapper'>
       <div class='heading-section'>
         <div class='h3'>Hello, I'm</div>
