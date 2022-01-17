@@ -37,6 +37,10 @@ export default {
   max-width: 1240px;
 }
 
+.linkedin {
+  margin-right: 10px;
+}
+
 .about-me-img {
   margin-right: 20px;
 }

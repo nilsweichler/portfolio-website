@@ -36,8 +36,10 @@
 </template>
 
 <script>
-
+import VTooltip from 'v-tooltip'
 import 'v-tooltip/dist/v-tooltip.css'
+VTooltip.options.disposeTimeout = 999999;
+
 export default {
   name: 'SkillsSection'
 }
@@ -50,6 +52,13 @@ export default {
   background-repeat: no-repeat;
 }
 
+.v-popper--theme-tooltip .v-popper__inner {
+  background: var(--font-gradient);
+}
+
+.v-popper--theme-tooltip .v-popper__arrow {
+  border-color: #5B41CA;
+}
 
 .skills {
   display: flex;
@@ -105,6 +114,10 @@ export default {
 
 .svg-inline--fa {
   width: 2em !important;
+}
+
+.tooltip .tooltip-inner {
+  background: orange;
 }
 
 @media screen and (max-width: 1050px) {
