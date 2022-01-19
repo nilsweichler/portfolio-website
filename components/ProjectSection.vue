@@ -4,38 +4,8 @@
     <div class='projects'>
       <div class='projects-container'>
         <div class='project-card'>
-          <h4>Project Name</h4>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
-          <a class='linkedin button small' href='#' target='_blank'>Website</a>
-          <a class='github button small' href='#' target='_blank'>GitHub</a>
-        </div>
-        <div class='project-card'>
-          <h4>Project Name</h4>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
-          <a class='linkedin button small' href='#' target='_blank'>Website</a>
-          <a class='github button small' href='#' target='_blank'>GitHub</a>
-        </div>
-        <div class='project-card'>
-          <h4>Project Name</h4>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
-          <a class='linkedin button small' href='#' target='_blank'>Website</a>
-          <a class='github button small' href='#' target='_blank'>GitHub</a>
-        </div>
-        <div class='project-card'>
-          <h4>Project Name</h4>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
-          <a class='linkedin button small' href='#' target='_blank'>Website</a>
-          <a class='github button small' href='#' target='_blank'>GitHub</a>
-        </div>
-        <div class='project-card'>
-          <h4>Project Name</h4>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
-          <a class='linkedin button small' href='#' target='_blank'>Website</a>
-          <a class='github button small' href='#' target='_blank'>GitHub</a>
-        </div>
-        <div class='project-card'>
-          <h4>Project Name</h4>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+          <h4>Projects in progress</h4>
+          <p>Here you will see the upcoming projects.</p>
           <a class='linkedin button small' href='#' target='_blank'>Website</a>
           <a class='github button small' href='#' target='_blank'>GitHub</a>
         </div>
