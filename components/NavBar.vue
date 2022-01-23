@@ -1,7 +1,7 @@
 <template>
   <div class='navbar'>
     <div class='navbar-wrapper'>
-      <div class='logo'><a href='#'><img src="portfolio-logo.svg" id="logo" alt='Portfolio Website Logo'></a></div>
+      <div class='logo'><a href='#' onclick="window.location.reload();"><img src="portfolio-logo.svg" id="logo" alt='Portfolio Website Logo'></a></div>
       <div class='menu'>
         <a href='#about'>About Me</a>
         <a href='#projects'>Projects</a>

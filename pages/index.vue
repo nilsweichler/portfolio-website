@@ -11,7 +11,7 @@
 </template>
 
 <script>
-
+import VModal from 'vue-js-modal'
 export default {
 
 }
