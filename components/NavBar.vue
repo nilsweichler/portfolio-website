@@ -6,7 +6,8 @@
         <a href='/#about'>About Me</a>
         <a href='/#projects'>Projects</a>
         <a href='/#services'>Services</a>
-        <a href='/#skills'>Skills</a>
+        <a href='/h#skills'>Skills</a>
+        
         <div class='dark-light-switch'><DarkModeSwitch @switched="onSwitched" :initialState="isDarkModeEnabled" /></div>
       </div>
     </div>
