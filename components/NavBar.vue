@@ -1,12 +1,12 @@
 <template>
   <div class='navbar'>
     <div class='navbar-wrapper'>
-      <div class='logo'><a href='#' onclick="window.location.reload();"><img src="portfolio-logo.svg" id="logo" alt='Portfolio Website Logo'></a></div>
+      <div class='logo'><a href='/' onclick="window.location.reload();"><img src="portfolio-logo.svg" id="logo" alt='Portfolio Website Logo'></a></div>
       <div class='menu'>
-        <a href='#about'>About Me</a>
-        <a href='#projects'>Projects</a>
-        <a href='#services'>Services</a>
-        <a href='#skills'>Skills</a>
+        <a href='/#about'>About Me</a>
+        <a href='/#projects'>Projects</a>
+        <a href='/#services'>Services</a>
+        <a href='/#skills'>Skills</a>
         <div class='dark-light-switch'><DarkModeSwitch @switched="onSwitched" :initialState="isDarkModeEnabled" /></div>
       </div>
     </div>
@@ -45,8 +45,12 @@ export default {
         root.style.setProperty("--footer-font-color", "#fff");
         root.style.setProperty("--drop-shadow", "20px 20px 40px rgba(0, 0, 0, 0.12)");
         root.style.setProperty("--background-image", "url(static/hero-background.svg)");
-        document.getElementById("hero-section").style.backgroundImage = "url(hero-background.svg)";
-        document.getElementById("logo").src = 'portfolio-logo.svg';
+        if(document.getElementById("hero-section")) {
+          document.getElementById("hero-section").style.backgroundImage = "url(hero-background.svg)";
+        }
+        if(document.getElementById("logo")) {
+          document.getElementById("logo").src = 'portfolio-logo.svg';
+        }
       } else {
         root.style.setProperty("--font-color", "#292E35");
         root.style.setProperty("--p-color", "#777777");
@@ -60,8 +64,12 @@ export default {
         root.style.setProperty("--footer-color", "#F7FAFF");
         root.style.setProperty("--footer-font-color", "#4E2BC7");
         root.style.setProperty("--drop-shadow", "20px 20px 40px rgba(0, 0, 0, 0.12)");
-        document.getElementById("hero-section").style.backgroundImage = "url(hero-background-light.svg)";
-        document.getElementById("logo").src = 'portfolio-logo-dark.svg';
+        if(document.getElementById("hero-section")) {
+          document.getElementById("hero-section").style.backgroundImage = "url(hero-background-light.svg)";
+        }
+        if(document.getElementById("logo")) {
+          document.getElementById("logo").src = 'portfolio-logo-dark.svg';
+        }
       }
     }
   }

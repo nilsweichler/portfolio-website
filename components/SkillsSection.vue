@@ -5,7 +5,7 @@
         <h2><span class='blue-gradient'>Skills</span></h2>
         <p>Here you can find some of my favorite techniques. My tech stack is formed by these cutting edge technologies.</p>
       </div>
-      <div class='skill-container'>
+      <div data-aos="fade-left" class='skill-container'>
         <div v-tooltip="'HTML5'" class='skill-card'>
           <font-awesome-icon class='skill-icon' :icon="['fab', 'html5']"/>
         </div>

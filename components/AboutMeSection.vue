@@ -4,7 +4,7 @@
       <div class='about-me-img'>
         <img src='about-me-pic.svg' alt='About Me Avatar'>
       </div>
-      <div class='about-me-text'>
+      <div data-aos="fade-left" class='about-me-text'>
         <h2><span class='blue-gradient'>About</span> Me</h2>
         <p>Hi my name is Nils Weichler, I am a frontend developer from Lübeck, Germany. I study Information Technology and Design at the
           <a style="text-decoration: none" target="_blank" href="https://www.th-luebeck.de/">Lübeck University of Applied Sciences</a>. I will graduate with a bachelor's degree at the beginning of 2023.</p>

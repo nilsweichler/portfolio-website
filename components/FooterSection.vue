@@ -6,7 +6,7 @@
         <a target="_blank" href="https://www.linkedin.com/in/nils-weichler-25427114a/"><font-awesome-icon class='skill-icon' :icon="['fab', 'linkedin']"/></a>
       </div>
       <div class='footer-text'>
-        <a href='#'>Imprint</a>
+        <a href='/imprint'>Imprint</a>
         <a href='#'>Privacy Policy</a>
       </div>
     </div>
