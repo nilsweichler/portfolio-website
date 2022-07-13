@@ -4,10 +4,11 @@
     <div class='projects'>
       <div class='projects-container'>
         <div data-aos="fade-left" class='project-card'>
-          <h4>Projects in progress</h4>
-          <p>Here you will see the upcoming projects.</p>
-          <a class='linkedin button small' href='https://www.linkedin.com/in/nils-weichler-25427114a/' target='_blank'>Website</a>
-          <a class='github button small' href='https://github.com/nilsweichler' target='_blank'>GitHub</a>
+          <h4>Job Board</h4>
+          <img src="https://res.cloudinary.com/casinowitch/image/upload/v1656333402/jobremote-logo_wwzghn.svg" width="50%">
+          <p>The project was implemented using NextJS and Firebase and focused primarily on learning the techniques.</p>
+          <a class='linkedin button small' href='https://jobremote.io' target='_blank'>Website</a>
+          <a class='github button small' href='https://github.com/nilsweichler/jobremote' target='_blank'>GitHub</a>
         </div>
       </div>
     </div>
